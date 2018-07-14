@@ -1,0 +1,480 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato: 100,100i,300,300i,400,400i,700,700i,900,900i')
+
+.Site
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+  margin: 0
+
+.Site-content
+  flex: 1
+
+.content
+  max-width: 1140px
+  margin: 0 auto
+
+.head
+  width: 100%
+  height: 100px
+  background-color: white
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.logo
+  width: 59px
+  height: 51px
+  display: flex
+  align-items: center
+
+.poisk
+  display: flex
+  height: 38px
+  vertical-align: center
+  text-align: center
+  line-height: 38px
+
+.poisk .first
+  border-bottom-left-radius: 3px
+  border-top-left-radius: 3px
+  border: 1px solid #e6e6e6
+  box-sizing: border-box
+  background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%)
+  width: 87px
+
+.poisk input
+  width: 279px
+  justify-content: space-between
+  text-align: left
+  padding: 3px
+  border: 1px solid #e6e6e6
+  box-sizing: border-box
+  background-color: #ffffff
+
+.poisk .last
+  border-bottom-right-radius: 3px
+  border-top-right-radius: 3px
+  border: 1px solid #e6e6e6
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 38px
+  color: #a4a4a4
+
+.logo h3
+  padding: 13px
+
+.account
+  display: flex
+  align-items: center
+
+.MyAccount
+  display: block
+  background-color: #f16d7f
+  width: 130px
+  height: 38px
+  color: #ffffff
+  font-size: 15px
+  font-weight: 400
+  line-height: 32px
+  text-align: center
+  margin-left: 26px
+
+span
+  color: #f16d7f
+
+a
+  text-decoration: none
+  color: #222222
+
+ul,
+p,
+h2,
+h3
+  margin: 0
+
+.bread
+  background-color: #f8f3f4
+  height: 148px
+
+.menu a
+  font-size: 14px
+  font-weight: 700
+  line-height: 10px
+  display: block
+  padding: 19px 19px 22px
+  text-transform: uppercase
+
+.menu a:hover
+  color: #f16d7f
+
+.menu .active_link_menu
+  border-bottom: 3px solid #f16d7f
+  padding-bottom: 19px
+
+.menu .active_link_menu:hover
+  color: #000
+
+.menu li
+  position: relative
+
+.mega
+  border-radius: 5px
+  background-color: #fff
+  border: 1px solid #777
+  position: absolute
+  right: -200%
+  top: 47px
+  /*display:  flex*/
+  display: none
+
+.arrow
+  position: absolute
+  width: 16px
+  height: 16px
+  background-color: #fff
+  transform: rotate(45deg)
+  border-top: 1px solid #777
+  border-left: 1px solid #777
+  bottom: -7px
+  right: 50%
+  display: none
+
+.menu li:hover .mega
+  display: flex
+
+.menu li:hover .arrow
+  display: flex
+
+.mega-flex
+  width: 237px
+  padding: 25px
+
+.mega-flex a
+  width: 200px
+
+.mega-flex h3
+  padding: 8px
+  border-bottom: 1px solid #adadad
+
+nav
+  background-color: white
+  border-top: 1px solid #e8e8e8
+
+  color: #222222
+  font-size: 14px
+  font-weight: 700
+  line-height: 26px
+
+nav ul
+  padding: 0
+  display: flex
+  text-decoration: none
+  list-style-type: none
+  justify-content: center
+  flex-wrap: wrap
+
+.men
+  height: 665px
+  background: #e8e8e8 url(../img/men.jpg) no-repeat center
+  margin-bottom: 98px
+
+.men-text
+  margin-top: 276px
+  padding-left: 19px
+  border-left: 12px solid #f16d7f
+  font-weight: 900
+  color: #222222
+
+.men-text h2
+  font-size: 60px
+
+.men-text h3
+  font-size: 40px
+
+.blok2
+  /*    margin-top:  98px*/
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+.kart
+  height: 823px
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+  margin-bottom: 18px
+
+.bl1,
+.bl2
+  width: 560px
+/*    border:  1px solid #000*/
+
+
+.bl1
+  height: 542px
+  position: relative
+
+.bl2
+  height: 261px
+  position: relative
+
+.stiker
+  display: inline-block
+  background-color: #ffffff
+  /*    height:  82px*/
+  padding: 16px 20px
+  /*    border:  1px solid #000*/
+  /*    min-width:  175px*/
+  position: absolute
+  top: 26px
+  color: #222222
+  font-size: 18px
+  font-weight: 900
+  text-transform: uppercase
+
+.stiker span
+  font-size: 30px
+
+.sing
+  border: 1px solid #eaeaea
+  /*box-sizing:  border-box*/
+  background-color: #f7f7f7
+/*height:  777px*/
+/*position:  relative*/
+
+.slider
+  display: flex
+  align-items: center
+
+.form
+  height: 777px
+  border: 1px solid #eaeaea
+  position: relative
+  top: -60px
+  background-color: #fff
+  display: block
+  /*justify-content:  center*/
+  /*align-items:  center*/
+  text-align: center
+  padding: 63px 262px
+
+.captionh4
+  height: 211px
+  padding-top: 30px
+
+.captionh4 h4
+  color: #222222
+  font-size: 30px
+  font-weight: 700
+  line-height: 54px
+  text-align: center
+  text-transform: uppercase
+  margin: 10px
+
+.captionh4 p
+  color: #9f9f9f
+  font-size: 14px
+  font-weight: 400
+  line-height: 54px
+  text-align: center
+
+.bl3
+  width: 263px
+  height: 368px
+  margin-bottom: 39px
+  display: block
+  text-align: left
+  position: relative
+
+.bl3 h3
+  margin: 10px
+
+.cart
+  /*display:  block*/
+  /*    box-sizing:  border-box*/
+  padding: 0 15px
+  line-height: 39px
+  outline: 1px solid #f9f9f9
+  color: white
+  position: absolute
+  top: 93px
+  left: 60px
+  display: none
+
+.bl3:hover img
+  filter: brightness(70%)
+
+.bl3:hover
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+
+.layer
+  width: 100%
+
+.bl3:hover .cart
+  display: block
+  outline: 1px solid #f9f9f9
+  color: white
+
+.offer
+  margin-top: 113px
+  margin-bottom: 97px
+  background-color: #222224
+  height: 529px
+  display: flex
+  color: white
+
+.forwomen
+  width: 767px
+  height: 529px
+  position: relative
+
+.forwomen .forwomen_text
+  left: 40px
+  top: 146px
+  position: absolute
+/*    */
+
+
+.subscribe
+  height: 438px
+  margin-bottom: 109px
+  background: rgba(242, 242, 242, 0.5) url(../img/subscribe.jpg) no-repeat center
+
+.bl6
+  display: flex
+  padding: 90px
+
+.otziv
+  width: 50%
+  color: rgba(34, 34, 36, 0.67)
+  font-size: 16px
+  font-style: italic
+  line-height: 26px
+  display: flex
+
+.otziv img
+  /*    float:  left*/
+  margin-right: 28px
+  width: 83px
+  height: 83px
+
+.cherta
+  background-color: #d6d6d6
+  width: 38px
+  height: 4px
+  margin: 40px 10px
+  display: inline-block
+
+.kr
+  background-color: #f16d7f
+
+.subscribe-form
+  width: 50%
+  color: rgba(34, 34, 36, 0.67)
+  font-size: 14px
+  font-weight: 400
+  line-height: 24px
+  text-align: center
+  text-transform: uppercase
+  justify-content: center
+
+/**/
+
+.inf
+  display: flex
+  justify-content: flex-start
+  flex-wrap: wrap
+
+.bl4
+  width: 427px
+  /*    border:  1px solid #000*/
+  margin: 39px 63px 89px 0
+  color: #898989
+  font-size: 14px
+  font-weight: 300
+  line-height: 24px
+
+.bl5
+  flex-direction: column
+  display: flex
+  width: 200px
+  margin: 0 0 97px 0
+
+.caption
+  color: #f16d7f
+  font-size: 18px
+  font-weight: 700
+  line-height: 26px
+  margin-bottom: 39px
+
+.bl5 span
+  color: #f16d7f
+  font-size: 18px
+  font-weight: 700
+  line-height: 26px
+  margin-top: 29px
+
+.bl5 a
+  color: #898989
+  font-size: 16px
+  font-weight: 400
+  line-height: 42px
+
+.top
+  text-align: center
+
+.top a
+  justify-content: center
+  background-color: #f16d7f
+  color: #ffffff
+  font-size: 16px
+  font-weight: 700
+  line-height: 54px
+  padding: 10px 18px
+  text-align: center
+  transition: background-color 2s ease-out
+
+.top a:hover
+  background-color: #af1bff
+
+footer
+  height: 79px
+  background-color: #e6e6e6
+
+.content_foot
+  height: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  color: #7a7a7a
+  font-size: 16px
+  font-weight: 400
+  line-height: 42px
+
+.social ul
+  display: flex
+  text-decoration: none
+  list-style-type: none
+
+.social a
+  display: block
+  background-color: #fff
+  padding: 0
+  margin-left: 8px
+  width: 32px
+  height: 32px
+  text-align: center
+  /*    font-family:  FontAwesome*/
+  color: #b2b2b2
+  font-size: 16px
+  font-weight: 400
+  line-height: 35px
+
+.social a:hover
+  background-color: #f16d7f
+  color: #fff
+
+.social a:active
+  background-color: #ededed
+  color: #b2b2b2
